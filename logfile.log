@@ -1,764 +1,168 @@
-WARN	2024-01-24 16:56:20,323	0	org.example.Main	[main]	Attempting to get movie name from user as input.
-WARN	2024-01-24 16:56:22,522	2199	org.example.Main	[main]	Attempting to get release year from user as input.
-WARN	2024-01-24 16:56:25,249	4926	org.example.Main	[main]	Attempting to get director from user as input.
-WARN	2024-01-24 16:56:26,579	6256	org.example.Main	[main]	Attempting to get Director ID from user as input.
-WARN	2024-01-24 16:56:45,164	24841	org.example.Main	[main]	Attempting to get movie name from user as input.
-WARN	2024-01-24 16:56:45,821	25498	org.example.Main	[main]	Attempting to get release year from user as input.
-INFO	2024-01-24 16:56:46,533	26210	org.example.Main	[main]	MovieException: Throwing invalid year exception due non-numeric year input.
-WARN	2024-01-25 10:32:31,994	0	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 10:32:43,344	11350	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 10:33:08,540	36546	org.example.Main	[main]	Attempting to get director ID from user as input.
-WARN	2024-01-25 10:58:49,910	0	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-25 10:59:08,685	18775	org.example.Main	[main]	MovieException: Throwing exception due to incorrect release year input.
-WARN	2024-01-25 11:30:42,495	0	org.example.Main	[main]	MovieException: Throwing blank entry exception for Movie Name.
-WARN	2024-01-25 11:40:54,636	0	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 11:48:48,530	0	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 11:49:03,482	14952	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 11:49:08,250	19720	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 11:49:08,250	19720	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 12:42:50,634	0	org.example.Main	[main]	MovieException: Throwing blank entry exception for Movie Name.
-WARN	2024-01-25 12:43:23,837	33203	org.example.Main	[main]	MovieException: Throwing exception due to incorrect release year input.
-WARN	2024-01-25 12:43:32,805	42171	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-INFO	2024-01-25 12:43:45,456	54822	org.example.Main	[main]	CLIException: Throwing invalid non-numeric input exception.
-WARN	2024-01-25 12:43:53,927	63293	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-25 12:44:14,402	83768	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-25 12:44:37,948	107314	org.example.Main	[main]	MovieException: Throwing blank entry exception for genre.
-WARN	2024-01-25 12:47:03,468	252834	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 12:47:03,468	252834	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 12:47:09,430	258796	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 12:47:14,422	263788	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 12:47:17,822	267188	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 12:47:17,822	267188	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 12:47:20,880	270246	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 12:47:23,903	273269	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 12:47:30,568	279934	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 12:47:34,000	283366	org.example.Main	[main]	Attempting to get movie ID from user as input.
-WARN	2024-01-25 13:04:10,620	0	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 13:04:44,125	33505	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 13:04:57,320	46700	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 13:09:52,139	0	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 13:15:28,352	0	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-25 13:15:41,538	13186	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 13:24:54,697	0	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 13:24:59,352	4655	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-25 13:25:11,977	17280	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-INFO	2024-01-25 13:25:27,124	32427	org.example.Main	[main]	CLIException: Throwing invalid choice exception due to incorrect input.
-WARN	2024-01-25 13:26:18,387	0	org.example.Main	[main]	CLIException: Empty command.
-INFO	2024-01-25 13:26:23,649	5262	org.example.Main	[main]	CLIException: Throwing invalid choice exception due to incorrect non-numeric input.
-WARN	2024-01-25 13:28:14,832	0	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 13:28:20,719	5887	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-INFO	2024-01-25 13:28:25,456	10624	org.example.Main	[main]	CLIException: Throwing invalid choice exception due to incorrect non-numeric input.
-WARN	2024-01-25 13:36:49,026	0	org.example.Main	[main]	MovieException: Throwing blank entry exception for genre.
-WARN	2024-01-25 13:42:45,602	0	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-25 13:42:52,842	7240	org.example.Main	[main]	MovieException: Throwing blank entry exception for Movie Name.
-WARN	2024-01-25 14:26:13,588	0	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 14:38:29,607	0	org.example.Main	[main]	MovieException: Throwing blank entry exception for genre.
-WARN	2024-01-25 15:06:03,881	0	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-25 15:06:53,759	49878	org.example.Main	[main]	MovieException: Throwing blank entry exception for First Name.
-WARN	2024-01-25 15:07:22,251	0	org.example.Main	[main]	MovieException: Throwing blank entry exception for First Name.
-WARN	2024-01-25 15:07:39,797	0	org.example.Main	[main]	MovieException: Throwing blank entry exception for First Name.
-WARN	2024-01-25 15:07:44,203	4406	org.example.Main	[main]	MovieException: Throwing blank entry exception for Last Name.
-WARN	2024-01-25 15:07:52,213	12416	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-25 15:08:05,590	25793	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 15:08:16,200	36403	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 15:08:31,018	51221	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 17:04:53,794	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:04:53,795	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:04:53,795	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:04:53,795	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:04:53,795	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:04:53,804	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:04:53,804	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:04:53,804	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:04:53,804	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:04:53,804	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:04:56,652	2858	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:04:57,339	3545	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-25 17:04:57,340	3546	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:05:02,010	8216	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:05:02,988	9194	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-25 17:05:02,989	9195	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:05:02,989	9195	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 17:05:10,428	16634	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:05:12,148	18354	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-25 17:05:12,148	18354	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:05:12,148	18354	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 17:05:16,829	23035	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:05:17,140	23346	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 17:11:20,635	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:11:20,635	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:11:20,635	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:11:20,636	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:11:20,636	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:11:20,644	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:11:20,644	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:11:20,645	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:11:20,645	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:11:20,645	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:11:24,230	3595	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:11:25,911	5276	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 17:11:37,063	16428	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:11:38,896	18261	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:11:45,744	25109	org.example.Main	[main]	Attempting to update Name of a Movie.
-WARN	2024-01-25 17:21:58,502	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:21:58,502	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:21:58,502	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:21:58,502	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:21:58,502	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:21:58,512	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:21:58,512	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:21:58,512	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:21:58,512	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:21:58,512	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:22:02,134	3632	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:22:03,720	5218	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 17:22:09,783	11281	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:22:16,504	18002	org.example.Main	[main]	Attempting to update Name of a Movie.
-WARN	2024-01-25 17:22:16,504	18002	org.example.Main	[main]	Attempting to get movie by ID.
-WARN	2024-01-25 17:23:34,686	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:23:34,687	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:23:34,687	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:23:34,687	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:23:34,687	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:23:34,699	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:23:34,699	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:23:34,699	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:23:34,699	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:23:34,699	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:23:37,913	3227	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:23:44,162	9476	org.example.Main	[main]	Attempting to update Name of a Movie.
-WARN	2024-01-25 17:23:44,162	9476	org.example.Main	[main]	Attempting to get movie by ID.
-WARN	2024-01-25 17:26:52,432	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:26:52,432	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:26:52,433	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:26:52,433	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:26:52,433	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:26:52,442	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:26:52,442	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:26:52,442	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:26:52,442	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:26:52,442	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:26:55,369	2937	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:27:19,074	26642	org.example.Main	[main]	Attempting to update Name of a Movie.
-WARN	2024-01-25 17:27:19,074	26642	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:27:19,074	26642	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 17:28:04,557	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:28:04,558	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:28:04,558	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:28:04,558	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:28:04,558	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:28:04,567	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:28:04,567	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:28:04,567	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:28:04,567	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:28:04,567	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:28:09,056	4499	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:28:10,592	6035	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:28:13,352	8795	org.example.Main	[main]	Attempting to update Name of a Movie.
-WARN	2024-01-25 17:28:13,352	8795	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:28:13,352	8795	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-25 17:29:21,853	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:29:21,854	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:29:21,854	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:29:21,854	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:29:21,854	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:29:21,863	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:29:21,863	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:29:21,863	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:29:21,863	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:29:21,863	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:29:27,874	6021	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:29:29,633	7780	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:31:43,381	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:31:43,382	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:31:43,382	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:31:43,382	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:31:43,382	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:31:43,392	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:31:43,392	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:31:43,392	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:31:43,392	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:31:43,392	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:31:47,267	3886	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:31:50,384	7003	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 17:31:53,514	10133	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:31:54,945	11564	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:31:58,410	15029	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:31:59,146	15765	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:32:04,939	21558	org.example.Main	[main]	Attempting to update Name of a Movie.
-WARN	2024-01-25 17:32:07,835	24454	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:32:09,587	26206	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:32:12,692	29311	org.example.Main	[main]	Attempting to update Release Year of a Movie.
-WARN	2024-01-25 17:32:17,276	33895	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:32:20,684	37303	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:32:22,716	39335	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-25 17:32:28,293	44912	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:32:28,293	44912	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:32:28,293	44912	org.example.Main	[main]	Attempting to update Director of a Movie.
-WARN	2024-01-25 17:32:30,821	47440	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:32:37,190	53809	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:32:39,520	56139	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-25 17:32:41,760	58379	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-25 17:32:41,760	58379	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:32:41,760	58379	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-25 17:32:41,760	58379	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:32:41,760	58379	org.example.Main	[main]	Attempting to update Director of a Movie.
-WARN	2024-01-25 17:32:45,174	61793	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:32:46,671	63290	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:32:49,520	66139	org.example.Main	[main]	Attempting to update Genre(s) of a Movie.
-WARN	2024-01-25 17:32:49,520	66139	org.example.Main	[main]	MovieException: Throwing blank entry exception for genre.
-WARN	2024-01-25 17:32:53,785	70404	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:32:55,161	71780	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:32:56,962	73581	org.example.Main	[main]	Attempting to update Genre(s) of a Movie.
-WARN	2024-01-25 17:33:02,193	78812	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:33:05,201	81820	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:33:06,826	83445	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:33:08,322	84941	org.example.Main	[main]	Attempting to update Name of a Movie.
-WARN	2024-01-25 17:33:08,322	84941	org.example.Main	[main]	MovieException: Throwing blank entry exception for Movie Name.
-WARN	2024-01-25 17:33:21,500	98119	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:33:21,988	98607	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:33:26,518	103137	org.example.Main	[main]	Attempting to update Release Year of a Movie.
-WARN	2024-01-25 17:33:26,518	103137	org.example.Main	[main]	MovieException: Throwing exception due to incorrect Release Year input.
-WARN	2024-01-25 17:33:30,909	107528	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:33:31,221	107840	org.example.Main	[main]	Attempting to get max ID of Director List.
-INFO	2024-01-25 17:33:34,765	111384	org.example.Main	[main]	CLIException: Throwing invalid non-numeric input exception.
-WARN	2024-01-25 17:33:38,862	115481	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:33:39,607	116226	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:33:42,118	118737	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 17:34:17,305	153924	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:34:20,658	157277	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:34:22,466	159085	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-25 17:34:24,476	161095	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-25 17:34:30,203	166822	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:34:31,372	167991	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:34:33,676	170295	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-25 17:34:35,924	172543	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-25 17:34:35,924	172543	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:34:35,924	172543	org.example.Main	[main]	MovieException: Throwing blank entry exception for Last Name.
-WARN	2024-01-25 17:34:39,893	176512	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:34:40,589	177208	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:34:42,060	178679	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-25 17:34:44,293	180912	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-25 17:34:44,293	180912	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:34:44,293	180912	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-25 17:34:44,293	180912	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:34:44,293	180912	org.example.Main	[main]	Attempting to update Director of a Movie.
-WARN	2024-01-25 17:34:47,535	184154	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-25 17:34:50,382	187001	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:34:51,541	188160	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:34:53,582	190201	org.example.Main	[main]	Attempting to update Genre(s) of a Movie.
-WARN	2024-01-25 17:34:53,582	190201	org.example.Main	[main]	MovieException: Throwing blank entry exception for genre.
-WARN	2024-01-25 17:35:31,568	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:31,568	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:31,568	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:31,568	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:31,568	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:31,584	16	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:31,584	16	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:31,584	16	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:31,584	16	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:31,584	16	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:34,601	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:34,601	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:34,602	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:34,602	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:34,602	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:34,611	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:34,611	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:34,611	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:34,611	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:34,611	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-25 17:35:39,052	4451	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-25 17:35:40,139	5538	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-25 17:35:42,269	7668	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 08:35:21,000	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:21,001	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:21,001	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:21,001	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:21,001	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:21,010	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:21,010	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:21,010	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:21,010	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:21,010	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:37,043	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:37,044	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:37,044	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:37,044	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:37,044	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:37,053	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:37,053	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:37,053	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:37,053	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:37,053	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:35:42,392	5349	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 08:35:49,441	12398	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:36:08,979	31936	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 08:36:14,181	37138	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 08:36:28,063	51020	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:36:29,142	52099	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:36:29,142	52099	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:36:31,343	54300	org.example.Main	[main]	Attempting to add a new Movie.
-WARN	2024-01-26 08:36:31,343	54300	org.example.Main	[main]	Attempting to get max ID of Movie List.
-WARN	2024-01-26 08:36:31,343	54300	org.example.Main	[main]	MovieException: Throwing blank entry exception for Movie Name.
-WARN	2024-01-26 08:36:42,815	65772	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:36:44,577	67534	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:36:44,577	67534	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:36:46,392	69349	org.example.Main	[main]	Attempting to add a new Movie.
-WARN	2024-01-26 08:36:46,392	69349	org.example.Main	[main]	Attempting to get max ID of Movie List.
-WARN	2024-01-26 08:36:46,392	69349	org.example.Main	[main]	MovieException: Throwing exception due to incorrect Release Year input.
-WARN	2024-01-26 08:36:53,065	76022	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 08:37:02,218	85175	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:37:04,105	87062	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 08:37:10,250	93207	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:37:12,154	95111	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:37:12,154	95111	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-26 08:37:19,852	102809	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:37:21,075	104032	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:37:21,075	104032	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:37:22,580	105537	org.example.Main	[main]	Attempting to add a new Movie.
-WARN	2024-01-26 08:37:22,580	105537	org.example.Main	[main]	Attempting to get max ID of Movie List.
-WARN	2024-01-26 08:37:22,580	105537	org.example.Main	[main]	MovieException: Throwing blank entry exception for genre.
-WARN	2024-01-26 08:37:27,230	110187	org.example.Main	[main]	Attempting to get all Directors.
-INFO	2024-01-26 08:37:35,797	118754	org.example.Main	[main]	CLIException: Throwing invalid choice exception due to incorrect non-numeric input.
-WARN	2024-01-26 08:37:49,366	132323	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:37:49,791	132748	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 08:37:56,663	139620	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:37:59,824	142781	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-26 08:37:59,824	142781	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:37:59,824	142781	org.example.Main	[main]	MovieException: Throwing blank entry exception for First Name.
-WARN	2024-01-26 08:39:10,199	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:39:10,199	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:39:10,199	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:39:10,199	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:39:10,199	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:39:10,209	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:39:10,209	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:39:10,209	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:39:10,209	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:39:10,210	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:39:19,505	9306	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:39:22,899	12700	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-26 08:39:22,899	12700	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:39:22,899	12700	org.example.Main	[main]	MovieException: Throwing blank entry exception for First Name.
-INFO	2024-01-26 08:39:32,706	22507	org.example.Main	[main]	CLIException: Throwing invalid non-numeric input exception.
-WARN	2024-01-26 08:39:37,628	27429	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:39:43,828	33629	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-26 08:39:43,828	33629	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:39:43,828	33629	org.example.Main	[main]	MovieException: Throwing blank entry exception for Last Name.
-WARN	2024-01-26 08:39:48,652	38453	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:39:51,958	41759	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-26 08:39:51,958	41759	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:39:51,958	41759	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:39:51,958	41759	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:39:58,070	47871	org.example.Main	[main]	Attempting to add a new Movie.
-WARN	2024-01-26 08:39:58,070	47871	org.example.Main	[main]	Attempting to get max ID of Movie List.
-WARN	2024-01-26 08:40:02,070	51871	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:40:12,806	62607	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 08:40:18,111	67912	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:40:21,336	71137	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:40:28,329	78130	org.example.Main	[main]	Attempting to get all Movies.
-INFO	2024-01-26 08:40:29,979	79780	org.example.Main	[main]	CLIException: Throwing invalid choice exception due to incorrect non-numeric input.
-WARN	2024-01-26 08:40:33,483	83284	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:40:35,819	85620	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:40:41,259	91060	org.example.Main	[main]	Attempting to update Name of a Movie.
-WARN	2024-01-26 08:40:41,259	91060	org.example.Main	[main]	MovieException: Throwing blank entry exception for Movie Name.
-WARN	2024-01-26 08:40:46,467	96268	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:40:47,203	97004	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:40:53,380	103181	org.example.Main	[main]	Attempting to update Name of a Movie.
-WARN	2024-01-26 08:40:55,988	105789	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:40:59,078	108879	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:41:01,836	111637	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 08:43:47,304	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:43:47,305	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:43:47,305	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:43:47,305	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:43:47,305	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:43:47,321	17	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:43:47,321	17	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:43:47,321	17	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:43:47,321	17	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:43:47,322	18	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:43:50,864	3560	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:43:52,040	4736	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:44:09,252	21948	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 08:45:55,068	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:45:55,068	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:45:55,068	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:45:55,068	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:45:55,068	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:45:55,077	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:45:55,077	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:45:55,077	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:45:55,077	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:45:55,077	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:45:59,318	4250	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:46:00,190	5122	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:46:01,928	6860	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 08:46:05,263	10195	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:46:06,343	11275	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:46:11,096	16028	org.example.Main	[main]	Attempting to update Release Year of a Movie.
-WARN	2024-01-26 08:46:11,096	16028	org.example.Main	[main]	MovieException: Throwing exception due to incorrect Release Year input.
-WARN	2024-01-26 08:46:14,081	19013	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:46:15,521	20453	org.example.Main	[main]	Attempting to get max ID of Director List.
-INFO	2024-01-26 08:46:18,569	23501	org.example.Main	[main]	CLIException: Throwing invalid non-numeric input exception.
-WARN	2024-01-26 08:46:22,217	27149	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:46:22,793	27725	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:46:28,721	33653	org.example.Main	[main]	Attempting to update Release Year of a Movie.
-WARN	2024-01-26 08:46:31,723	36655	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:46:34,442	39374	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:46:35,914	40846	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:46:39,090	44022	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 08:46:46,149	51081	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:46:47,796	52728	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:46:49,524	54456	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:46:53,660	58592	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:46:53,660	58592	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-26 08:46:59,493	64425	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:47:00,414	65346	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:47:01,685	66617	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:47:06,687	71619	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-26 08:47:06,687	71619	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:47:06,687	71619	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:47:06,687	71619	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:47:06,687	71619	org.example.Main	[main]	Attempting to update Director of a Movie.
-WARN	2024-01-26 08:47:09,383	74315	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:47:10,879	75811	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:47:19,024	83956	org.example.Main	[main]	Attempting to update Genre(s) of a Movie.
-WARN	2024-01-26 08:51:49,070	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:51:49,070	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:51:49,070	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:51:49,070	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:51:49,070	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:51:49,080	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:51:49,080	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:51:49,080	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:51:49,080	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:51:49,080	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:52:03,751	14681	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 08:52:13,192	24122	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 08:52:18,097	29027	org.example.Main	[main]	Attempting to search a Movie by name, director, or genre.
-WARN	2024-01-26 08:52:34,803	45733	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 08:52:42,069	52999	org.example.Main	[main]	Attempting to search a Movie by name, director, or genre.
-WARN	2024-01-26 08:52:51,941	62871	org.example.Main	[main]	Attempting to search a Movie by name, director, or genre.
-WARN	2024-01-26 08:53:00,566	71496	org.example.Main	[main]	Attempting to search a Movie by name, director, or genre.
-WARN	2024-01-26 08:53:13,119	84049	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 08:53:18,297	89227	org.example.Main	[main]	Attempting to search a Movie by name, director, or genre.
-WARN	2024-01-26 08:54:56,795	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:54:56,796	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:54:56,796	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:54:56,796	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:54:56,796	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:54:56,806	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:54:56,806	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:54:56,806	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:54:56,806	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:54:56,806	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:10,549	13754	org.example.Main	[main]	Attempting to search a Movie by name, director, or genre.
-WARN	2024-01-26 08:55:15,470	18675	org.example.Main	[main]	Attempting to search a Movie by name, director, or genre.
-WARN	2024-01-26 08:55:23,547	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:23,548	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:23,548	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:23,548	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:23,548	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:23,560	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:23,560	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:23,560	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:23,560	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:23,560	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:27,478	3931	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:55:28,815	5268	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 08:55:31,320	7773	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:55:32,071	8524	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 08:55:32,072	8525	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:55:34,311	10764	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:55:35,096	11549	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 08:55:35,096	11549	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:55:39,967	16420	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:55:41,273	17726	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 08:55:41,274	17727	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:55:47,482	23935	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:55:50,665	27118	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 08:55:50,666	27119	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:55:53,738	30191	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:55:54,530	30983	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 08:55:54,530	30983	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:55:57,978	34431	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 08:55:59,051	35504	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:55:59,051	35504	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 08:56:00,169	36622	org.example.Main	[main]	Attempting to add a new Movie.
-WARN	2024-01-26 08:56:00,169	36622	org.example.Main	[main]	Attempting to get max ID of Movie List.
-WARN	2024-01-26 08:56:02,722	39175	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:56:12,644	49097	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 08:56:12,644	49097	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:56:14,620	51073	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:56:14,964	51417	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 08:56:14,964	51417	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:56:20,214	56667	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:56:21,437	57890	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 08:56:21,437	57890	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:56:24,341	60794	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:56:25,037	61490	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 08:56:25,037	61490	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 08:56:27,198	63651	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 08:56:30,870	67323	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:04:00,881	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:04:00,882	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:04:00,882	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:04:00,882	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:04:00,882	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:04:00,894	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:04:00,894	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:04:00,894	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:04:00,894	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:04:00,894	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:04:03,888	3007	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:04:05,354	4473	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:04:05,354	4473	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:04:08,394	7513	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:04:09,057	8176	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:04:09,058	8177	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:04:11,834	10953	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:04:12,251	11370	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:04:12,251	11370	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:04:14,012	13131	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:04:14,412	13531	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:04:14,412	13531	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:04:16,131	15250	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:04:16,539	15658	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:04:16,539	15658	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:04:18,858	17977	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:04:19,779	18898	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:04:19,779	18898	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:04:21,875	20994	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:06:26,024	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:06:26,024	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:06:26,024	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:06:26,024	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:06:26,024	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:06:26,034	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:06:26,034	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:06:26,034	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:06:26,034	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:06:26,034	10	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:06:29,650	3626	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:06:29,945	3921	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:06:29,945	3921	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:06:32,850	6826	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:06:33,418	7394	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:06:33,418	7394	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:06:36,755	10731	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:06:37,020	10996	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:06:37,020	10996	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:06:38,756	12732	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:06:39,363	13339	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:06:39,363	13339	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:06:42,099	16075	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:06:42,315	16291	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 09:06:45,203	19179	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:06:46,581	20557	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:06:46,581	20557	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:06:49,660	23636	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:06:50,420	24396	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:06:50,421	24397	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:06:54,221	28197	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:08:20,007	113983	org.example.Main	[main]	Attempting to get Director by their First or Last Name.
-WARN	2024-01-26 09:08:26,551	120527	org.example.Main	[main]	Attempting to get Director by their First or Last Name.
-WARN	2024-01-26 09:08:32,408	126384	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 09:08:36,817	130793	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-26 09:08:36,817	130793	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:08:36,817	130793	org.example.Main	[main]	MovieException: Throwing blank entry exception for First Name.
-WARN	2024-01-26 09:08:41,080	135056	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-26 09:08:41,080	135056	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:08:41,080	135056	org.example.Main	[main]	MovieException: Throwing blank entry exception for Last Name.
-WARN	2024-01-26 09:08:44,578	138554	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-26 09:08:44,578	138554	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:08:47,465	141441	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 09:08:51,987	145963	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 09:08:53,843	147819	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:23:39,530	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:23:39,531	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:23:39,531	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:23:39,531	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:23:39,531	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:23:39,541	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:23:39,541	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:23:39,541	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:23:39,541	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:23:39,541	11	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:23:46,649	7119	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:23:48,792	9262	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:23:48,792	9262	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:23:50,624	11094	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:23:51,681	12151	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:23:51,681	12151	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:23:54,145	14615	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:23:55,537	16007	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:23:55,537	16007	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:23:57,417	17887	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:23:58,297	18767	org.example.Main	[main]	Attempting to delete a Movie.
-WARN	2024-01-26 09:23:58,297	18767	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 09:24:03,921	24391	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 09:24:10,099	30569	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 09:24:12,858	33328	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:24:16,355	36825	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 09:24:20,308	40778	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 09:25:33,250	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:33,252	2	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:33,252	2	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:33,252	2	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:33,252	2	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:33,263	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:33,263	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:33,263	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:33,263	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:33,263	13	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:36,673	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:36,673	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:36,673	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:36,673	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:36,673	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:36,688	16	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:36,688	16	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:36,688	16	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:36,688	16	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:25:36,688	16	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 09:26:18,507	41835	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 09:26:54,829	78157	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:04,163	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:04,163	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:04,163	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:04,163	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:04,163	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:04,163	0	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 10:19:09,555	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:09,556	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:09,556	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:09,556	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:09,556	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:09,556	1	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 10:19:12,493	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:12,494	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:12,494	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:12,494	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:12,494	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:12,505	12	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:12,505	12	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:12,505	12	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:12,505	12	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:12,505	12	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:23,158	10665	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:19:26,806	14313	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:19:28,038	15545	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:28,038	15545	org.example.Main	[main]	MovieException: ID not found.
-WARN	2024-01-26 10:19:52,163	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:52,163	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:52,163	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:52,163	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:52,164	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:52,172	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:52,172	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:52,172	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:52,172	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:19:52,172	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:20:04,281	12118	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:20:06,146	13983	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:20:06,146	13983	org.example.Main	[main]	MovieException: ID not found.
-WARN	2024-01-26 10:20:08,481	16318	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 10:20:11,162	18999	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:20:12,378	20215	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:20:12,378	20215	org.example.Main	[main]	MovieException: ID not found.
-WARN	2024-01-26 10:20:15,226	23063	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:20:15,666	23503	org.example.Main	[main]	CLIException: Empty command.
-WARN	2024-01-26 10:20:19,491	27328	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:20:19,994	27831	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:20:23,898	31735	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 10:20:28,316	36153	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:20:28,931	36768	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:20:30,154	37991	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 10:20:33,475	41312	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:20:34,604	42441	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:20:36,764	44601	org.example.Main	[main]	Attempting to update First or Last Name of a Director.
-WARN	2024-01-26 10:23:16,519	0	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:16,520	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:16,520	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:16,520	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:16,520	1	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:16,528	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:16,528	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:16,528	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:16,528	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:16,528	9	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:21,742	5223	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:23:22,062	5543	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:23,422	6903	org.example.Main	[main]	CLIException: Throwing exception due to incorrect selection.
-WARN	2024-01-26 10:23:29,111	12592	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:23:29,398	12879	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:31,823	15304	org.example.Main	[main]	Attempting to update First or Last Name of a Director.
-WARN	2024-01-26 10:23:31,823	15304	org.example.Main	[main]	MovieException: First Name can't be blank.
-WARN	2024-01-26 10:23:37,576	21057	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:23:37,864	21345	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:23:42,648	26129	org.example.Main	[main]	Attempting to update First or Last Name of a Director.
-WARN	2024-01-26 10:23:49,360	32841	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 10:23:59,546	43027	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:24:03,290	46771	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:24:07,860	51341	org.example.Main	[main]	Attempting to update First or Last Name of a Director.
-WARN	2024-01-26 10:24:10,355	53836	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 10:24:21,429	64910	org.example.Main	[main]	Attempting to get Director by their First or Last Name.
-WARN	2024-01-26 10:25:42,710	146191	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:25:47,013	150494	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:25:51,606	155087	org.example.Main	[main]	Attempting to update First or Last Name of a Director.
-WARN	2024-01-26 10:25:51,606	155087	org.example.Main	[main]	MovieException: Last Name can't be blank.
-WARN	2024-01-26 10:25:55,582	159063	org.example.Main	[main]	Attempting to get all Movies.
-WARN	2024-01-26 10:25:59,279	162760	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:26:00,009	163490	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:26:03,656	167137	org.example.Main	[main]	Attempting to update First or Last Name of a Director.
-WARN	2024-01-26 10:26:07,752	171233	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:26:14,840	178321	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:26:15,818	179299	org.example.Main	[main]	Attempting to delete a Director.
-WARN	2024-01-26 10:26:15,818	179299	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:26:15,827	179308	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:26:20,385	183866	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:26:22,210	185691	org.example.Main	[main]	Attempting to delete a Director.
-WARN	2024-01-26 10:26:22,210	185691	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:26:22,210	185691	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-26 10:26:25,449	188930	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:26:25,819	189300	org.example.Main	[main]	Attempting to delete a Director.
-WARN	2024-01-26 10:26:25,819	189300	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:26:25,819	189300	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-26 10:26:28,274	191755	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:26:29,731	193212	org.example.Main	[main]	Attempting to delete a Director.
-WARN	2024-01-26 10:26:29,731	193212	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:26:29,731	193212	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:26:36,547	200028	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:28:36,608	320089	org.example.Main	[main]	Attempting to delete a Director.
-WARN	2024-01-26 10:28:36,608	320089	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:28:36,609	320090	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:28:41,664	325145	org.example.Main	[main]	Attempting to add a Director.
-WARN	2024-01-26 10:28:41,664	325145	org.example.Main	[main]	Attempting to get max ID of Director List.
-WARN	2024-01-26 10:28:44,481	327962	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:28:54,234	337715	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:28:54,626	338107	org.example.Main	[main]	Attempting to delete a Director.
-WARN	2024-01-26 10:28:54,626	338107	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:28:54,626	338107	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:28:57,820	341301	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:28:58,547	342028	org.example.Main	[main]	Attempting to delete a Director.
-WARN	2024-01-26 10:28:58,547	342028	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:28:58,547	342028	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-26 10:29:01,083	344564	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:29:01,586	345067	org.example.Main	[main]	Attempting to delete a Director.
-WARN	2024-01-26 10:29:01,586	345067	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:29:01,586	345067	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:29:03,731	347212	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:29:04,147	347628	org.example.Main	[main]	Attempting to delete a Director.
-WARN	2024-01-26 10:29:04,147	347628	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:29:04,147	347628	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:29:06,467	349948	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:29:06,980	350461	org.example.Main	[main]	Attempting to delete a Director.
-WARN	2024-01-26 10:29:06,980	350461	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:29:06,980	350461	org.example.Main	[main]	MovieException: Throwing ID not found exception.
-WARN	2024-01-26 10:29:09,396	352877	org.example.Main	[main]	Attempting to get all Directors.
-WARN	2024-01-26 10:29:10,796	354277	org.example.Main	[main]	Attempting to delete a Director.
-WARN	2024-01-26 10:29:10,796	354277	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:29:10,796	354277	org.example.Main	[main]	Attempting to get Director by their ID.
-WARN	2024-01-26 10:29:13,220	356701	org.example.Main	[main]	Attempting to get all Directors.
+INFO	2024-01-30 09:53:43,442	0	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,443	1	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,443	1	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,443	1	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,443	1	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,443	1	org.example.Main	[main]	Attempting to search a Movie by name, director, or genre.
+INFO	2024-01-30 09:53:43,445	3	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,445	3	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,445	3	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,446	4	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,446	4	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,446	4	org.example.Main	[main]	Attempting to delete a Director.
+INFO	2024-01-30 09:53:43,446	4	org.example.Main	[main]	Attempting to get Director by their ID.
+WARN	2024-01-30 09:53:43,446	4	org.example.Main	[main]	MovieException: Throwing ID not found exception.
+INFO	2024-01-30 09:53:43,450	8	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,450	8	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,450	8	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,450	8	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,450	8	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,450	8	org.example.Main	[main]	Attempting to delete a Director.
+INFO	2024-01-30 09:53:43,450	8	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,467	25	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,467	25	org.example.Main	[main]	Attempting to get movie by its name.
+INFO	2024-01-30 09:53:43,468	26	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,468	26	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,468	26	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,468	26	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,468	26	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,468	26	org.example.Main	[main]	Attempting to get movie by its ID.
+INFO	2024-01-30 09:53:43,468	26	org.example.Main	[main]	Attempting to update Name of a Movie.
+INFO	2024-01-30 09:53:43,468	26	org.example.Main	[main]	Attempting to get movie by its ID.
+INFO	2024-01-30 09:53:43,469	27	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,469	27	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,469	27	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,469	27	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,469	27	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,469	27	org.example.Main	[main]	Attempting to get Director by their First or Last Name.
+INFO	2024-01-30 09:53:43,470	28	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,470	28	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,470	28	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,470	28	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,470	28	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,470	28	org.example.Main	[main]	Attempting to get Director by their First or Last Name.
+INFO	2024-01-30 09:53:43,471	29	org.example.Main	[main]	Attempting to add a new Movie.
+INFO	2024-01-30 09:53:43,471	29	org.example.Main	[main]	Attempting to get max ID of Movie List.
+WARN	2024-01-30 09:53:43,471	29	org.example.Main	[main]	MovieException: Throwing exception due to incorrect Release Year input.
+INFO	2024-01-30 09:53:43,473	31	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,473	31	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,473	31	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,473	31	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,473	31	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,474	32	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,474	32	org.example.Main	[main]	Attempting to update First or Last Name of a Director.
+WARN	2024-01-30 09:53:43,474	32	org.example.Main	[main]	MovieException: First Name can't be blank.
+INFO	2024-01-30 09:53:43,476	34	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,476	34	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,477	35	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,477	35	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,477	35	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,477	35	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,477	35	org.example.Main	[main]	Attempting to update First or Last Name of a Director.
+WARN	2024-01-30 09:53:43,477	35	org.example.Main	[main]	MovieException: Last Name can't be blank.
+INFO	2024-01-30 09:53:43,479	37	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,479	37	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,479	37	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,479	37	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,480	38	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,480	38	org.example.Main	[main]	Attempting to search a Movie by name, director, or genre.
+INFO	2024-01-30 09:53:43,480	38	org.example.Main	[main]	Attempting to update Genre(s) of a Movie.
+WARN	2024-01-30 09:53:43,480	38	org.example.Main	[main]	MovieException: Throwing blank entry exception for genre.
+INFO	2024-01-30 09:53:43,481	39	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,483	41	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,483	41	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,483	41	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,483	41	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,483	41	org.example.Main	[main]	Attempting to get movie by its ID.
+INFO	2024-01-30 09:53:43,483	41	org.example.Main	[main]	Attempting to update Release Year of a Movie.
+INFO	2024-01-30 09:53:43,483	41	org.example.Main	[main]	Attempting to get movie by its ID.
+INFO	2024-01-30 09:53:43,484	42	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,484	42	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,484	42	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,484	42	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,484	42	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,484	42	org.example.Main	[main]	Attempting to get Director by their First or Last Name.
+WARN	2024-01-30 09:53:43,484	42	org.example.Main	[main]	MovieException: Throwing Director not found exception.
+INFO	2024-01-30 09:53:43,487	45	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,487	45	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,487	45	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,487	45	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,487	45	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,487	45	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,487	45	org.example.Main	[main]	Attempting to update First or Last Name of a Director.
+INFO	2024-01-30 09:53:43,487	45	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,488	46	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,488	46	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,488	46	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,488	46	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,488	46	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,489	47	org.example.Main	[main]	Attempting to add a Director.
+INFO	2024-01-30 09:53:43,489	47	org.example.Main	[main]	Attempting to get max ID of Director List.
+WARN	2024-01-30 09:53:43,489	47	org.example.Main	[main]	MovieException: Throwing blank entry exception for First Name.
+INFO	2024-01-30 09:53:43,493	51	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,493	51	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,493	51	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,493	51	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,493	51	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,493	51	org.example.Main	[main]	Attempting to get movie by its ID.
+INFO	2024-01-30 09:53:43,493	51	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,493	51	org.example.Main	[main]	Attempting to update Director of a Movie.
+INFO	2024-01-30 09:53:43,493	51	org.example.Main	[main]	Attempting to get movie by its ID.
+INFO	2024-01-30 09:53:43,494	52	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,494	52	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,494	52	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,494	52	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,494	52	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,494	52	org.example.Main	[main]	Attempting to get Director by their First or Last Name.
+INFO	2024-01-30 09:53:43,494	52	org.example.Main	[main]	Attempting to add a new Movie.
+INFO	2024-01-30 09:53:43,494	52	org.example.Main	[main]	Attempting to get max ID of Movie List.
+INFO	2024-01-30 09:53:43,495	53	org.example.Main	[main]	Attempting to get all Movies.
+INFO	2024-01-30 09:53:43,495	53	org.example.Main	[main]	Attempting to get max ID of Movie List.
+INFO	2024-01-30 09:53:43,495	53	org.example.Main	[main]	Attempting to get movie by its ID.
+INFO	2024-01-30 09:53:43,497	55	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,497	55	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,497	55	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,498	56	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,498	56	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,498	56	org.example.Main	[main]	Attempting to get all Movies.
+INFO	2024-01-30 09:53:43,498	56	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,498	56	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,499	57	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,499	57	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,499	57	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,499	57	org.example.Main	[main]	Attempting to get movie by its name.
+WARN	2024-01-30 09:53:43,499	57	org.example.Main	[main]	MovieException: Throwing no movie found exception.
+INFO	2024-01-30 09:53:43,501	59	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,502	60	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,502	60	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,502	60	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,502	60	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,502	60	org.example.Main	[main]	Attempting to delete a Movie.
+INFO	2024-01-30 09:53:43,502	60	org.example.Main	[main]	Attempting to get movie by its ID.
+WARN	2024-01-30 09:53:43,502	60	org.example.Main	[main]	MovieException: Throwing ID not found exception.
+INFO	2024-01-30 09:53:43,504	62	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,504	62	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,504	62	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,504	62	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,504	62	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,504	62	org.example.Main	[main]	Attempting to add a Director.
+INFO	2024-01-30 09:53:43,505	63	org.example.Main	[main]	Attempting to get max ID of Director List.
+INFO	2024-01-30 09:53:43,505	63	org.example.Main	[main]	Attempting to get all Directors.
+INFO	2024-01-30 09:53:43,505	63	org.example.Main	[main]	Attempting to get max ID of Director List.
+INFO	2024-01-30 09:53:43,505	63	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,505	63	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,505	63	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,505	63	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,506	64	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,506	64	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,506	64	org.example.Main	[main]	Attempting to get movie by its ID.
+INFO	2024-01-30 09:53:43,506	64	org.example.Main	[main]	Attempting to update Release Year of a Movie.
+WARN	2024-01-30 09:53:43,506	64	org.example.Main	[main]	MovieException: Throwing exception due to incorrect Release Year input.
+INFO	2024-01-30 09:53:43,507	65	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,508	66	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,508	66	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,528	86	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,528	86	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,528	86	org.example.Main	[main]	Attempting to get Director by their ID.
+INFO	2024-01-30 09:53:43,528	86	org.example.Main	[main]	Attempting to update First or Last Name of a Director.
+INFO	2024-01-30 09:53:43,528	86	org.example.Main	[main]	Attempting to get Director by their ID.

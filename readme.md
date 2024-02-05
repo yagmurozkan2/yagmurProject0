@@ -1,31 +1,32 @@
-Movie Library 
+Movie Directory v.1.0
+Movie Directory is used to store movies and directors, and helps users to find what to watch based on their preference.
 
-admin;
-    add movies 
-    update moviees
+Description
+Movie Directory lets the users to store and retrieve information about Movies and Directors.
 
-user; 
-    search movies by 
-        - genre
-        - director
-        - actor
+Users can perform below actions on Movie Level;
+- Add Movie
+- Search Movie
+  - by title
+  - by director
+  - by release year
+  - by genre
+- Delete Movie
+- Update Movie
+- View All Movies
 
+Users can perform below action on Director level;
+- Add Director
+- Search Director
+  - by first name
+  - by last name
+- Delete Director
+- Update Director
+- View All Directors
 
-model class to hold a movie 
-- constructor 
-- fields like name director
-- getters/setters 
+Getting Started
+Dependencies
+Java v.11.0.21, Zulu 11, Maven
 
-
-
-Project 0
-Simple console app – input / output is received through the console
-The theme of the project, and the actions you'll perform, will be up to you
-Remote Git repository
-Readme file containing instructions on how to leverage the app.
-Organization of the project through “service classes” containing business logic and “model classes” that model data (maintaining separation of concerns across the project)
-Appropriate usage of Collections to store multiple points of data
-Maven project
-Appropriate usage of Exception classes when appropriate (eg for bad user input or otherwise impossible to perform actions)
-Unit testing for your Service classes
-Let’s spend a full day or two working on this project later this week, and, we will make this due sometime next week 
+Authors
+Yagmur Ozkan

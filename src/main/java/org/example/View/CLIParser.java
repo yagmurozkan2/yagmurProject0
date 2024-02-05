@@ -27,20 +27,9 @@ public class CLIParser {
         }
     }
 
-    public boolean isInputNumber(String input) {
-        for (char c : input.toCharArray()) {
-            if (!Character.isDigit(c)) return false;
-        }
-        return true;
-    }
-
     public int validateIDInput(String choice) throws CLIException{
         int choiceInt;
-        if (!isInputNumber(choice)) {
-            Main.log.info("CLIException: Throwing invalid choice exception due to incorrect non-numeric input.");
-            throw new CLIException("You entered a non-numeric value for ID.");
-        }
-        else if (choice.isEmpty()) {
+        if (choice.isEmpty()) {
             Main.log.warn("CLIException: Empty command.");
             throw new CLIException("Incorrect selection! Please choose a valid ID.");
         }
@@ -55,20 +44,10 @@ public class CLIParser {
         return sc.nextLine();
     }
 
-    public int requestReleaseYear() throws CLIException {
+    public int requestReleaseYear() throws NumberFormatException {
         System.out.println("Please enter the Release Year of the Movie: ");
         String ReleaseYear = sc.nextLine();
-        if (!isInputNumber(ReleaseYear)) {
-            Main.log.info("CLIException: Throwing invalid non-numeric input exception.");
-            throw new CLIException("You entered a non-numeric Release Year. Please enter a numeric value. ");
-        }
-        else if (ReleaseYear.isEmpty()) {
-            Main.log.warn("CLIException: Empty command.");
-            throw new CLIException("Incorrect selection! Please enter a valid numeric Release Year.");
-        }
-        else {
-            return Integer.parseInt(ReleaseYear);
-        }
+        return Integer.parseInt(ReleaseYear);
     }
 
     public String requestNewDirectorFirstName() {
@@ -95,10 +74,6 @@ public class CLIParser {
             Main.log.warn("CLIException: Empty command.");
             throw new CLIException("Incorrect selection! Please enter either Director ID too add a new movie or enter 'new' to add a new Director");
         }
-        else if (!isInputNumber(DirectorChoice)) {
-            Main.log.info("CLIException: Throwing invalid choice exception due to incorrect non-numeric input.");
-            throw new CLIException("You entered a non-numeric value for ID, other than 'new'.");
-        }
         else {
             int DirectorID = Integer.parseInt(DirectorChoice);
             if (newMovieService.getDirectorbyID(DirectorID) == null) {
@@ -119,12 +94,12 @@ public class CLIParser {
     public boolean interpretMovieAddAction() throws MovieException, CLIException {
         newMovieService.addMovie(requestMovieName(), requestReleaseYear(), requestDirector(), requestGenre());
         return true;
-    } /*done*/
+    }
 
     public boolean interpretMovieViewAction() {
         printList(newMovieService.getMovies());
         return true;
-    } /*done*/
+    }
 
     public boolean interpretMovieDeleteAction() throws CLIException, MovieException {
         System.out.println("Here are the movies eligible for delete operation: ");
@@ -134,7 +109,7 @@ public class CLIParser {
             newMovieService.deleteMovie(validateIDInput(sc.nextLine()));
         }
         return true;
-    } /* done */
+    }
 
     public boolean interpretMovieUpdateAction() throws MovieException, CLIException {
         System.out.println("Here are the movies eligible for update operation: ");
@@ -166,7 +141,7 @@ public class CLIParser {
             }
         }
         return true;
-    } /* done */
+    }
 
     public boolean interpretMovieSearchAction() throws CLIException{
         System.out.println("What would you like to use as Movie Search criteria; Name, Director, or Genre: ");
@@ -188,7 +163,7 @@ public class CLIParser {
             throw new CLIException("Incorrect selection! Please choose from: Name, Director, or Genre: ");
         }
         return true;
-    } /* done */
+    }
 
     public boolean interpretDirectorAddAction() throws CLIException, MovieException {
         newMovieService.addDirector(requestNewDirectorFirstName(), requestNewDirectorLastName());
@@ -198,7 +173,7 @@ public class CLIParser {
     public boolean interpretDirectorViewAction() {
         printList(newMovieService.getDirectors());
         return true;
-    } /*done*/
+    }
 
     public boolean interpretDirectorDeleteAction() throws CLIException, MovieException {
         System.out.println("Here are the directors eligible for delete operation: ");
@@ -206,10 +181,11 @@ public class CLIParser {
         if (flag) {
             System.out.println("Which director would you like to Delete? Please choose its ID: ");
             int directorID = validateIDInput(sc.nextLine());
+            newMovieService.deleteMovie(newMovieService.getMoviebyDirectorID(directorID).getID());
             newMovieService.deleteDirector(directorID);
         }
         return true;
-    } /* done */
+    }
 
     public boolean interpretDirectorUpdateAction() throws CLIException, MovieException {
         Scanner sc = new Scanner(System.in);
@@ -245,15 +221,14 @@ public class CLIParser {
         System.out.println("Please enter Director First or Last Name you would like to search for: ");
         String searchWord = sc.nextLine();
         if (searchWord.isEmpty()) {
-            Main.log.warn("CLIException: Throwing blank entry exception.");
-            throw new CLIException("First or Last Name is blank");
+            Main.log.warn("CLIException: Empty command.");
+            throw new CLIException("Incorrect Selection! Please enter Director First or Last Name you would like to search for: ");
         }
         printList(newMovieService.getDirectorbyFirstOrLastName(searchWord));
         return true;
     }
 
     public boolean parseMovieCommandReturnOutput(String command) throws MovieException, CLIException {
-
         if (command.equalsIgnoreCase("add")) {
             return interpretMovieAddAction();
         } else if (command.equalsIgnoreCase("view")) {
@@ -292,7 +267,6 @@ public class CLIParser {
     }
 
     public boolean parseCommandReturnOutput(String command) throws CLIException, MovieException {
-
         if (command.equalsIgnoreCase("movie")) {
             System.out.println("\nMovie Menu Options: Add, View, Delete, Update, Search, or Exit to end the program.");
             String userChoice = sc.nextLine();

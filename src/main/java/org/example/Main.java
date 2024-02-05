@@ -33,26 +33,21 @@ public class Main {
                 flag = cliParser.parseCommandReturnOutput(userMovieDirectorChoice);
             }
             catch (CLIException exception) {
-                System.out.println("\nYou caused CLIException! Please make sure to enter valid input! For more information refer to Stack Trace. ");
+                System.out.println("You caused CLIException! Please make sure to enter valid input! For more information refer to Stack Trace. ");
                 exception.printStackTrace();
             }
             catch (MovieException exception) {
-                System.out.println("\nYou caused MovieException! Please make sure to enter valid input! For more information refer to Stack Trace. ");
+                System.out.println("You caused MovieException! Please make sure to enter valid input! For more information refer to Stack Trace. ");
                 exception.printStackTrace();
             }
             catch (NumberFormatException exception) {
                 System.out.println("Cannot parse string into a number");
+                exception.printStackTrace();
             }
-
-            /**
-            * search by movie name with like
-            * search by genre exact
-            * search by director exact first or last name
-            * delete
-            * add director
-            * update director
-            * search director and list all movies
-            * */
+            catch (NullPointerException exception) {
+                System.out.println("Null Pointer Exception");
+                exception.printStackTrace();
+            }
 
         }
     }
